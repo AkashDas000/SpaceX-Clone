@@ -201,3 +201,23 @@ footer{
     color: rgb(4, 4, 38);
   }
 
+@media (max-width: 768px) {
+    .middle {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .right p{
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+}
+
